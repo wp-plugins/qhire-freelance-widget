@@ -1,0 +1,252 @@
+.qhire
+{
+	background: #f5f5f5;
+	/*change this width using JS. Widget container width is same as this */
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+
+.qhire #diagram {
+	background: #f5f5f5;
+	position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    /*change this width using JS. width is 50px less than width of .qhire */
+    width: 250px;
+    /*height same as width*/
+    height: 250px;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    overflow: hidden;
+}
+
+.qhire .box
+{
+	/*change this width using JS. width is 50px less than width of .qhire */
+    width: 250px;
+    /*height same as width*/
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden !important;
+    position: relative;
+    background: #f5f5f5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.qhire .get 
+{
+	display:none;
+}
+
+.qhire .head
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 15px;
+	background-color: #69c773;
+	color: #fff;
+	vertical-align: middle;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.qhire .head img
+{
+	float: right;
+	width: 22px;
+	height: 22px;
+}
+
+.qhire .clear
+{
+	clear: both;
+}
+
+.qhire .foot
+{
+	padding: 10px;
+	font-size: 14px;
+	background-color: #69c773;
+	color: #F1FFFA;
+}
+
+.qhire .foot img
+{
+	float: left;
+	height: 14px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+
+.qhire .foot .available
+{
+	margin-left: 4px;
+}
+
+.qhire .foot button
+{
+	float: right;
+	background-color: #43b54c;
+	border-color: #43b54c;
+	border-width: 0px;
+	color: white;
+	font-size: 14px;
+	border-radius: 2px;
+	padding: 5px 10px;
+}
+
+.qhire .foot button:hover
+{
+	cursor: pointer;
+	color: #F1FFFA;
+}
+
+.qhire .foot button:focus
+{
+	outline: none;
+}
+
+.qhire .signal
+{
+	height: 12px;
+	width: 12px;
+	background-color: #56DDB4;
+	display: inline-block;
+	border-radius: 6px;
+}
+
+.qhire .available
+{
+	color: #F1FFFA !important;
+}
+
+.qhire .availables
+{
+	display: inline-block;
+	padding-top: 5px;
+}
+
+.qhire .freelance
+{
+	margin-left: 4px;
+}
+
+.qhire .quote 
+{
+	position: absolute;
+	/*change this width using JS. width is 50px less than width of .qhire */
+    width: 250px;
+    /*height same as width*/
+    height: 250px;
+    background-color: #f5f5f5;
+    /*change this too*/
+    left: 270px;
+    overflow: hidden;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    text-align: center;
+}
+
+.qhire .quote form
+{
+	height: 100%;
+}
+
+.qhire .quote form input[type="submit"]
+{
+	padding: 5px 10px !important;
+	background-color: #43b54c !important;
+	background: #43b54c !important;
+	border-color: #43b54c !important;
+	border-width: 0px !important;
+	color: #F1FFFA !important;
+	font-size: 14px !important;
+	border-radius: 2px !important;
+	-moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.qhire .quote form input[type="submit"]:hover
+{
+	cursor: pointer;
+}
+
+.qhire .quote form input[type="submit"]:focus
+{
+	cursor: pointer;
+	outline: none;
+}
+
+.qhire .quote form input[type="text"]
+{
+	width: 80%;
+	border: 1px solid #333;
+	padding: 5px 10px;
+}
+
+.qhire .quote form input[type="text"]:focus
+{
+	outline: none;
+	border: 1px solid #333;
+}
+
+.qhire .quote form textarea
+{
+	width: 80% !important;
+	height: 35% !important;
+	border: 1px solid #333 !important;
+	padding: 5px 10px !important;
+	margin-left: -2px !important;
+}
+
+.qhire .quote form textarea:focus
+{
+	outline: none;
+	border: 1px solid #333;
+}
+
+.qhire .information
+{
+	margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.qhire .information img
+{
+	float: left;
+	margin-right: 8px;
+	height: 64px;
+	width: 64px;
+}
+
+.qhire .portfolio
+{
+	border-bottom-width: 0px;
+	text-decoration: none;
+	border-bottom-style: solid;
+	border-bottom-color: #69c773;	
+	color: green;
+}
+
+.qhire .portfolio:hover
+{
+	border-bottom-width: 3px;
+	text-decoration: none;
+	border-bottom-style: solid;
+	border-bottom-color: #69c773;	
+}
+
+.qhire .thanks
+{
+	display: none;
+}
